@@ -1,0 +1,87 @@
+/* Custom styles for the User CRUD app */
+
+/* Main container styling */
+.container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* List group background */
+  .list-group-item {
+    background-color: #e9f5ff;
+    border: 1px solid #d0eaff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Custom button colors */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-danger {
+    background-color: #ff4757;
+    border-color: #ff4757;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-danger:hover {
+    background-color: #e84118;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  /* Form styling */
+  .form-label {
+    color: #333;
+  }
+  
+  .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: none;
+  }
+  
+  /* Custom card styling */
+  .user-card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Custom footer */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+  }
+  
